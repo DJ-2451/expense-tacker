@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.container{
+    width: 32%;
+    margin: auto;
+    padding: 0 20px;
+}
+.in-ex{
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 30px 0;
+    font-size: 22px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#income{
+    color: rgb(31, 199, 31);
+    margin-top:10px ;
+    font-weight: bold;
+}
+#expense{
+    color: rgb(249, 52, 52);
+    margin-top:10px ;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    
+    
+}
+h4{
+    margin-top: 10px;
+}
+h3{
+    margin-top: 30px;
+    border-bottom: 1px solid #bbb;
+}
+.his{
+    margin-top: 10px;
+}
+
+ 
+#balance{
+    width: 96%;
+    padding: 12px;
+    margin-bottom: 20px;
+   
+}
+.btn{
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(19, 147, 147);
+    border: 0;
+  
+}
+.btn:hover{
+    background-color:  rgb(50, 153, 153); 
+}
+#amount{
+    margin-top:10px;
+}
+.transaction{
+    width: 100%;
+}
+input{
+width:98%;
+padding: 10px;
+}
+
+#history{
+    list-style-type: none;
+    margin-bottom: 40px;
+    
+}
+.history-entry {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px 30px;
+    margin: 10px 0;
+  }
+
+  
+  #clear{
+    background-color: rgb(203, 21, 21);
+  }
+  /* .del-btn {
+    cursor: pointer;
+    background-color: #e74c3c;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 2px 5px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-100%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  } */
+  
+  /* .history-entry:hover .del-btn {
+    opacity: 1;
+  } */
+   @media screen and ( max-width : 480px){
+    .container{
+        width: 99%;
+    }
+   }
+    
+   
